@@ -20,6 +20,7 @@
 		955AD0BB26CE7C8C0029B651 /* UsersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AD0BA26CE7C8C0029B651 /* UsersService.swift */; };
 		955AD0BD26CE7EFD0029B651 /* UserPictureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AD0BC26CE7EFD0029B651 /* UserPictureService.swift */; };
 		955AD0BF26CE80F10029B651 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AD0BE26CE80F10029B651 /* NetworkError.swift */; };
+		955AD0C226CE82BC0029B651 /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AD0C126CE82BC0029B651 /* UsersViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		955AD0BA26CE7C8C0029B651 /* UsersService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersService.swift; sourceTree = "<group>"; };
 		955AD0BC26CE7EFD0029B651 /* UserPictureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPictureService.swift; sourceTree = "<group>"; };
 		955AD0BE26CE80F10029B651 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		955AD0C126CE82BC0029B651 /* UsersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 		955AD0A726CE75420029B651 /* Users */ = {
 			isa = PBXGroup;
 			children = (
+				955AD0C126CE82BC0029B651 /* UsersViewModel.swift */,
 			);
 			path = Users;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				955AD09326CE73860029B651 /* ContentView.swift in Sources */,
+				955AD0C226CE82BC0029B651 /* UsersViewModel.swift in Sources */,
 				955AD0B326CE788B0029B651 /* Endpoint+URL.swift in Sources */,
 				955AD0AF26CE76810029B651 /* Endpoint.swift in Sources */,
 				955AD0BD26CE7EFD0029B651 /* UserPictureService.swift in Sources */,

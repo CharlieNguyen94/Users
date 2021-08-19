@@ -52,7 +52,10 @@
 		955AD08F26CE73860029B651 /* Users */ = {
 			isa = PBXGroup;
 			children = (
-				955AD09026CE73860029B651 /* UsersApp.swift */,
+				955AD09F26CE74E90029B651 /* App */,
+				955AD0A626CE75310029B651 /* Presentation */,
+				955AD0AA26CE75670029B651 /* Business Logic */,
+				955AD0A026CE74F20029B651 /* Core */,
 				955AD09226CE73860029B651 /* ContentView.swift */,
 				955AD09426CE73870029B651 /* Assets.xcassets */,
 				955AD09926CE73870029B651 /* Info.plist */,
@@ -67,6 +70,91 @@
 				955AD09726CE73870029B651 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		955AD09F26CE74E90029B651 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				955AD09026CE73860029B651 /* UsersApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		955AD0A026CE74F20029B651 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				955AD0A126CE75020029B651 /* Networking */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		955AD0A126CE75020029B651 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		955AD0A626CE75310029B651 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				955AD0A726CE75420029B651 /* Users */,
+				955AD0A826CE754D0029B651 /* User Detail */,
+				955AD0A926CE75540029B651 /* More Info */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		955AD0A726CE75420029B651 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		955AD0A826CE754D0029B651 /* User Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "User Detail";
+			sourceTree = "<group>";
+		};
+		955AD0A926CE75540029B651 /* More Info */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "More Info";
+			sourceTree = "<group>";
+		};
+		955AD0AA26CE75670029B651 /* Business Logic */ = {
+			isa = PBXGroup;
+			children = (
+				955AD0AB26CE75700029B651 /* Services */,
+				955AD0AC26CE75770029B651 /* Models */,
+				955AD0AD26CE757C0029B651 /* Endpoints */,
+			);
+			path = "Business Logic";
+			sourceTree = "<group>";
+		};
+		955AD0AB26CE75700029B651 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		955AD0AC26CE75770029B651 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		955AD0AD26CE757C0029B651 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Endpoints;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

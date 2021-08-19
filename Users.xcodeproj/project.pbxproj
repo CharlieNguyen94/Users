@@ -17,6 +17,7 @@
 		955AD0B526CE7A230029B651 /* Endpoint+Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AD0B426CE7A230029B651 /* Endpoint+Users.swift */; };
 		955AD0B726CE7AD10029B651 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AD0B626CE7AD10029B651 /* Users.swift */; };
 		955AD0B926CE7AF90029B651 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AD0B826CE7AF90029B651 /* User.swift */; };
+		955AD0BB26CE7C8C0029B651 /* UsersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AD0BA26CE7C8C0029B651 /* UsersService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		955AD0B426CE7A230029B651 /* Endpoint+Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Endpoint+Users.swift"; sourceTree = "<group>"; };
 		955AD0B626CE7AD10029B651 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		955AD0B826CE7AF90029B651 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		955AD0BA26CE7C8C0029B651 /* UsersService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 		955AD0AB26CE75700029B651 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				955AD0BA26CE7C8C0029B651 /* UsersService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 				955AD09326CE73860029B651 /* ContentView.swift in Sources */,
 				955AD0B326CE788B0029B651 /* Endpoint+URL.swift in Sources */,
 				955AD0AF26CE76810029B651 /* Endpoint.swift in Sources */,
+				955AD0BB26CE7C8C0029B651 /* UsersService.swift in Sources */,
 				955AD09126CE73860029B651 /* UsersApp.swift in Sources */,
 				955AD0B926CE7AF90029B651 /* User.swift in Sources */,
 				955AD0B126CE76BC0029B651 /* Networker.swift in Sources */,

@@ -12,7 +12,7 @@ struct User: Codable, Identifiable {
     let title: String?
     let firstName: String
     let lastName: String
-    let email: String
+//    let email: String
     let dateOfBirth: String?
     let registerDate: String?
     let phone: String?
@@ -25,7 +25,7 @@ extension User {
                     title: "Test",
                     firstName: "Charlie",
                     lastName: "Nguyen",
-                    email: "test@gmail.com",
+//                    email: "test@gmail.com",
                     dateOfBirth: "31/12/1994",
                     registerDate: "1/1/2020",
                     phone: "+123456",

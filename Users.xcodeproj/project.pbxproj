@@ -14,6 +14,9 @@
 		955AD0AF26CE76810029B651 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AD0AE26CE76810029B651 /* Endpoint.swift */; };
 		955AD0B126CE76BC0029B651 /* Networker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AD0B026CE76BC0029B651 /* Networker.swift */; };
 		955AD0B326CE788B0029B651 /* Endpoint+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AD0B226CE788B0029B651 /* Endpoint+URL.swift */; };
+		955AD0B526CE7A230029B651 /* Endpoint+Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AD0B426CE7A230029B651 /* Endpoint+Users.swift */; };
+		955AD0B726CE7AD10029B651 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AD0B626CE7AD10029B651 /* Users.swift */; };
+		955AD0B926CE7AF90029B651 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AD0B826CE7AF90029B651 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		955AD0AE26CE76810029B651 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		955AD0B026CE76BC0029B651 /* Networker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networker.swift; sourceTree = "<group>"; };
 		955AD0B226CE788B0029B651 /* Endpoint+URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Endpoint+URL.swift"; sourceTree = "<group>"; };
+		955AD0B426CE7A230029B651 /* Endpoint+Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Endpoint+Users.swift"; sourceTree = "<group>"; };
+		955AD0B626CE7AD10029B651 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		955AD0B826CE7AF90029B651 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +160,8 @@
 		955AD0AC26CE75770029B651 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				955AD0B626CE7AD10029B651 /* Users.swift */,
+				955AD0B826CE7AF90029B651 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -162,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				955AD0B226CE788B0029B651 /* Endpoint+URL.swift */,
+				955AD0B426CE7A230029B651 /* Endpoint+Users.swift */,
 			);
 			path = Endpoints;
 			sourceTree = "<group>";
@@ -239,7 +248,10 @@
 				955AD0B326CE788B0029B651 /* Endpoint+URL.swift in Sources */,
 				955AD0AF26CE76810029B651 /* Endpoint.swift in Sources */,
 				955AD09126CE73860029B651 /* UsersApp.swift in Sources */,
+				955AD0B926CE7AF90029B651 /* User.swift in Sources */,
 				955AD0B126CE76BC0029B651 /* Networker.swift in Sources */,
+				955AD0B526CE7A230029B651 /* Endpoint+Users.swift in Sources */,
+				955AD0B726CE7AD10029B651 /* Users.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
